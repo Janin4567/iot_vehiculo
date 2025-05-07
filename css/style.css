@@ -1,0 +1,82 @@
+/* Tu CSS proporcionado */
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  font-style: italic; /* Título en cursiva */
+}
+
+.controls {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+
+.btn {
+  padding: 15px 20px;
+  min-width: 150px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.teal { background-color: #1abc9c; }
+.purple { background-color: #9b59b6; }
+.red { background-color: #e74c3c; }
+.yellow { background-color: #f1c40f; color: #333; }
+.orange { background-color: #e67e22; }
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.movement {
+  margin-top: 50px;
+}
+
+.movement p {
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+#movement-status {
+  font-size: 2rem;
+  color: #16a085;
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 80px;
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+  font-style: italic; /* Título en cursiva */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  color: #0d6efd;
+}
